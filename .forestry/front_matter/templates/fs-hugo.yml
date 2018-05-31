@@ -5,11 +5,12 @@ fields:
 - type: text
   name: title
   label: Title
+  default: FS Hugo
 - name: sub_heading
   label: Sub Heading
   type: text
   hidden: false
-  default: ''
+  default: Testing hugo out w Forestry
 - name: banner_image
   label: Banner Image
   type: file
@@ -20,7 +21,11 @@ fields:
   label: Tags
   type: tag_list
   hidden: false
-  default: []
+  default:
+  - stuff
+  - hugo
+  - cms
+  - fs
 - name: slug
   label: Slug
   type: text
